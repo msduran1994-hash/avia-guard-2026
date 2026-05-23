@@ -1,24 +1,29 @@
 "use client";
 import { useState } from "react";
-import { Search, Bell, Menu, RefreshCw } from "lucide-react";
+import { Bell, Menu, RefreshCw } from "lucide-react";
 import { cn } from "@/lib/utils";
+import NotificationsPanel from "@/components/notifications/NotificationsPanel";
+import type { Alert } from "@/components/notifications/NotificationsPanel";
 
 interface HeaderProps {
   title: string;
   subtitle?: string;
   onToggleSidebar?: () => void;
   actions?: React.ReactNode;
+  alerts?: Alert[];
 }
 
-export default function Header({ title, subtitle, onToggleSidebar, actions }: HeaderProps) {
+export default function Header({ title, subtitle, onToggleSidebar, actions, alerts = [] }: HeaderProps) {
   const [refreshing, setRefreshing] = useState(false);
+  const [showNotifications, setShowNotifications] = useState(false);
 
   const handleRefresh = () => {
     setRefreshing(true);
-    setTimeout(() => {
-      window.location.reload();
-    }, 300);
+    setTimeout(() => window.location.reload(), 300);
   };
+
+  const criticalCount = alerts.filter((a) => a.type === "critico").length;
+  const totalCount = alerts.length;
 
   return (
     <header className="flex items-center justify-between px-6 py-4 bg-white border-b border-slate-200 flex-shrink-0">
@@ -47,10 +52,33 @@ export default function Header({ title, subtitle, onToggleSidebar, actions }: He
         >
           <RefreshCw className="w-4 h-4" />
         </button>
-        <button className="relative p-2 rounded-lg text-slate-500 hover:bg-slate-100 transition-colors">
-          <Bell className="w-4 h-4" />
-          <span className="absolute top-1.5 right-1.5 w-2 h-2 bg-red-500 rounded-full" />
-        </button>
+
+        {/* Notification Bell */}
+        <div className="relative">
+          <button
+            onClick={() => setShowNotifications((v) => !v)}
+            className="relative p-2 rounded-lg text-slate-500 hover:bg-slate-100 transition-colors"
+            title="Notificaciones"
+          >
+            <Bell className="w-4 h-4" />
+            {totalCount > 0 && (
+              <span className={cn(
+                "absolute -top-0.5 -right-0.5 min-w-[18px] h-[18px] flex items-center justify-center rounded-full text-[10px] font-bold text-white px-1",
+                criticalCount > 0 ? "bg-red-500" : "bg-orange-400"
+              )}>
+                {totalCount > 99 ? "99+" : totalCount}
+              </span>
+            )}
+          </button>
+
+          {showNotifications && (
+            <NotificationsPanel
+              alerts={alerts}
+              onClose={() => setShowNotifications(false)}
+            />
+          )}
+        </div>
+
         <div className="w-8 h-8 bg-brand-600 rounded-full flex items-center justify-center text-xs font-bold text-white">
           MD
         </div>

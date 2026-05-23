@@ -4,7 +4,7 @@ import { usePathname } from "next/navigation";
 import {
   LayoutDashboard, Building2, ClipboardCheck, AlertTriangle,
   Target, Package, Layers, FileText, Users, BarChart3,
-  ChevronDown, Bird, Shield
+  Bird, Shield, Bell
 } from "lucide-react";
 import { cn } from "@/lib/utils";
 import { useState } from "react";
@@ -35,9 +35,10 @@ const NAV = [
   {
     section: "Gestión",
     items: [
-      { href: "/dashboard/documentos",  icon: FileText,       label: "Documentos",    badge: null },
-      { href: "/dashboard/informes",    icon: BarChart3,      label: "Informes",      badge: null },
-      { href: "/dashboard/usuarios",    icon: Users,          label: "Usuarios",      badge: null },
+      { href: "/dashboard/documentos",     icon: FileText,       label: "Documentos",          badge: null },
+      { href: "/dashboard/informes",       icon: BarChart3,      label: "Informes",            badge: null },
+      { href: "/dashboard/usuarios",       icon: Users,          label: "Usuarios",            badge: null },
+      { href: "/dashboard/notificaciones", icon: Bell,           label: "Notificaciones",      badge: null },
     ],
   },
 ];
