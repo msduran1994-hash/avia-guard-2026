@@ -1,4 +1,4 @@
-import { getAllEntities } from "@/lib/base44";
+import { getAllEntities } from "@/lib/local-db";
 import type { Finding, Farm } from "@/types";
 import HallazgosClient from "./HallazgosClient";
 

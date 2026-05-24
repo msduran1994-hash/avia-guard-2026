@@ -1,4 +1,4 @@
-import { getAllEntities } from "@/lib/base44";
+import { getAllEntities } from "@/lib/local-db";
 import type { AuditReport, Farm, Finding, KPIPlan } from "@/types";
 import InformesClient from "./InformesClient";
 

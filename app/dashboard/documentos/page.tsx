@@ -1,4 +1,4 @@
-import { getAllEntities } from "@/lib/base44";
+import { getAllEntities } from "@/lib/local-db";
 import type { Document, Farm } from "@/types";
 import DocumentosClient from "./DocumentosClient";
 

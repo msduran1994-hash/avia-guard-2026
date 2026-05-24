@@ -1,4 +1,4 @@
-import { getAllEntities } from "@/lib/base44";
+import { getAllEntities } from "@/lib/local-db";
 import type { Audit, Farm } from "@/types";
 import AuditoriasClient from "./AuditoriasClient";
 

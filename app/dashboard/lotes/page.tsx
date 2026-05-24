@@ -1,4 +1,4 @@
-import { getAllEntities } from "@/lib/base44";
+import { getAllEntities } from "@/lib/local-db";
 import type { Lot, Farm } from "@/types";
 import LotesClient from "./LotesClient";
 

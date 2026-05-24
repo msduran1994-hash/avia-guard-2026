@@ -1,4 +1,4 @@
-import { getAllEntities } from "@/lib/base44";
+import { getAllEntities } from "@/lib/local-db";
 import type { Farm, Finding, KPIPlan, Audit } from "@/types";
 import DashboardClient from "./DashboardClient";
 

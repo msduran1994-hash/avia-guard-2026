@@ -1,0 +1,2314 @@
+[
+  {
+    "summary": "Revisión ",
+    "metadata": null,
+    "auditor": "Alexander Téllez ",
+    "checklist": [
+      {
+        "weight": 1,
+        "section": "B. Infraestructura",
+        "id": "infraestructura_1",
+        "notes": "",
+        "question": "¿La estructura del galpón está en buen estado sin goteras, fisuras o daños evidentes?",
+        "answer": "si"
+      },
+      {
+        "weight": 1,
+        "section": "B. Infraestructura",
+        "id": "infraestructura_2",
+        "notes": "",
+        "question": "¿El sistema de ventilación funciona correctamente (extractores, cortinas, entradas de aire)?",
+        "answer": "no"
+      },
+      {
+        "weight": 1,
+        "section": "B. Infraestructura",
+        "id": "infraestructura_3",
+        "notes": "",
+        "question": "¿Los comederos y bebederos están en buen estado y funcionan correctamente?",
+        "answer": "no"
+      },
+      {
+        "weight": 1,
+        "section": "B. Infraestructura",
+        "id": "infraestructura_4",
+        "notes": "",
+        "question": "¿El sistema eléctrico cumple con normas de seguridad y está en buen estado?",
+        "answer": "na"
+      },
+      {
+        "weight": 1,
+        "section": "B. Infraestructura",
+        "id": "infraestructura_5",
+        "notes": "",
+        "question": "¿Las instalaciones de agua potable son suficientes y están en buen estado?",
+        "answer": "pendiente"
+      },
+      {
+        "weight": 1,
+        "section": "B. Infraestructura",
+        "id": "infraestructura_6",
+        "notes": "",
+        "question": "¿Los sistemas de iluminación funcionan correctamente en todas las áreas?",
+        "answer": "no"
+      },
+      {
+        "weight": 1,
+        "section": "B. Infraestructura",
+        "id": "infraestructura_7",
+        "notes": "",
+        "question": "¿Los equipos de calefacción o enfriamiento están operativos y calibrados?",
+        "answer": "no"
+      },
+      {
+        "weight": 1,
+        "section": "B. Infraestructura",
+        "id": "infraestructura_8",
+        "notes": "",
+        "question": "¿Las básculas y equipos de pesaje están calibrados y con certificado vigente?",
+        "answer": "no"
+      },
+      {
+        "weight": 1,
+        "section": "B. Infraestructura",
+        "id": "infraestructura_9",
+        "notes": "",
+        "question": "¿Los silos y sistemas de almacenamiento de alimento están en buen estado?",
+        "answer": "si"
+      },
+      {
+        "weight": 1,
+        "section": "B. Infraestructura",
+        "id": "infraestructura_10",
+        "notes": "",
+        "question": "¿Las vías de acceso interno están en buenas condiciones y son transitables?",
+        "answer": "si"
+      },
+      {
+        "weight": 1,
+        "section": "B. Infraestructura",
+        "id": "infraestructura_11",
+        "notes": "",
+        "question": "¿La cerca perimetral está en buen estado y cumple función de bioseguridad?",
+        "answer": "pendiente"
+      },
+      {
+        "weight": 1,
+        "section": "B. Infraestructura",
+        "id": "infraestructura_12",
+        "notes": "",
+        "question": "¿Existen sistemas de alarma para alertas de temperatura o falla eléctrica?",
+        "answer": "si"
+      },
+      {
+        "weight": 1,
+        "section": "B. Infraestructura",
+        "id": "infraestructura_13",
+        "notes": "",
+        "question": "¿Los equipos de bombeo de agua funcionan correctamente?",
+        "answer": "na"
+      },
+      {
+        "weight": 1,
+        "section": "B. Infraestructura",
+        "id": "infraestructura_14",
+        "notes": "",
+        "question": "¿Las oficinas y áreas de bienestar del personal están en buenas condiciones?",
+        "answer": "si"
+      },
+      {
+        "weight": 1,
+        "section": "B. Infraestructura",
+        "id": "infraestructura_15",
+        "notes": "",
+        "question": "¿Los sistemas de drenaje y desagüe funcionan sin obstrucciones?",
+        "answer": "no"
+      },
+      {
+        "weight": 1,
+        "section": "B. Infraestructura",
+        "id": "infraestructura_16",
+        "notes": "",
+        "question": "¿Existe plano actualizado de la distribución de instalaciones de la granja?",
+        "answer": "si"
+      },
+      {
+        "weight": 1,
+        "section": "B. Infraestructura",
+        "id": "infraestructura_17",
+        "notes": "",
+        "question": "¿Los equipos de generación eléctrica de emergencia están operativos?",
+        "answer": "no"
+      },
+      {
+        "weight": 1,
+        "section": "B. Infraestructura",
+        "id": "infraestructura_18",
+        "notes": "",
+        "question": "¿El almacén de insumos cumple con condiciones de temperatura y humedad requeridas?",
+        "answer": "si"
+      },
+      {
+        "weight": 1,
+        "section": "B. Infraestructura",
+        "id": "infraestructura_19",
+        "notes": "",
+        "question": "¿Se realiza mantenimiento preventivo periódico registrado de equipos e instalaciones?",
+        "answer": "si"
+      },
+      {
+        "weight": 1,
+        "section": "B. Infraestructura",
+        "id": "infraestructura_20",
+        "notes": "",
+        "question": "¿Las áreas de sacrificio o despacho cumplen con normas sanitarias vigentes?",
+        "answer": "si"
+      },
+      {
+        "weight": 1,
+        "section": "C. Ambiental",
+        "id": "ambiental_1",
+        "notes": "",
+        "question": "¿La granja cuenta con licencia ambiental o concepto favorable de la autoridad ambiental?",
+        "answer": "si"
+      },
+      {
+        "weight": 1,
+        "section": "C. Ambiental",
+        "id": "ambiental_2",
+        "notes": "",
+        "question": "¿Se realiza gestión adecuada de gallinaza y residuos orgánicos de la producción?",
+        "answer": "si"
+      },
+      {
+        "weight": 1,
+        "section": "C. Ambiental",
+        "id": "ambiental_3",
+        "notes": "",
+        "question": "¿Los residuos sólidos (empaques, envases) se clasifican y disponen correctamente?",
+        "answer": "si"
+      },
+      {
+        "weight": 1,
+        "section": "C. Ambiental",
+        "id": "ambiental_4",
+        "notes": "",
+        "question": "¿Los residuos peligrosos (fármacos vencidos, envases de productos químicos) se gestionan según normativa?",
+        "answer": "si"
+      },
+      {
+        "weight": 1,
+        "section": "C. Ambiental",
+        "id": "ambiental_5",
+        "notes": "",
+        "question": "¿Existe programa de compostaje o aprovechamiento de residuos orgánicos?",
+        "answer": "si"
+      },
+      {
+        "weight": 1,
+        "section": "C. Ambiental",
+        "id": "ambiental_6",
+        "notes": "",
+        "question": "¿El consumo de agua se registra y se han implementado medidas de ahorro?",
+        "answer": "si"
+      },
+      {
+        "weight": 1,
+        "section": "C. Ambiental",
+        "id": "ambiental_7",
+        "notes": "",
+        "question": "¿Las fuentes de agua utilizadas cumplen con estándares de calidad establecidos?",
+        "answer": "si"
+      },
+      {
+        "weight": 1,
+        "section": "C. Ambiental",
+        "id": "ambiental_8",
+        "notes": "",
+        "question": "¿Se controlan los vertimientos de aguas residuales conforme a la norma?",
+        "answer": "si"
+      },
+      {
+        "weight": 1,
+        "section": "C. Ambiental",
+        "id": "ambiental_9",
+        "notes": "",
+        "question": "¿Existen medidas para el control de olores hacia comunidades vecinas?",
+        "answer": "no"
+      },
+      {
+        "weight": 1,
+        "section": "C. Ambiental",
+        "id": "ambiental_10",
+        "notes": "",
+        "question": "¿Se realizan controles de ruido y se cumplen los límites permitidos?",
+        "answer": "no"
+      },
+      {
+        "weight": 1,
+        "section": "C. Ambiental",
+        "id": "ambiental_11",
+        "notes": "",
+        "question": "¿La mortalidad de aves se dispone de manera ambientalmente segura (compostaje, incineración autorizada)?",
+        "answer": "si"
+      },
+      {
+        "weight": 1,
+        "section": "C. Ambiental",
+        "id": "ambiental_12",
+        "notes": "",
+        "question": "¿Existe plan de gestión ambiental documentado y actualizado?",
+        "answer": "si"
+      },
+      {
+        "weight": 1,
+        "section": "C. Ambiental",
+        "id": "ambiental_13",
+        "notes": "",
+        "question": "¿Se registra el consumo de energía eléctrica y se han implementado medidas de eficiencia?",
+        "answer": "no"
+      },
+      {
+        "weight": 1,
+        "section": "C. Ambiental",
+        "id": "ambiental_14",
+        "notes": "",
+        "question": "¿Se han realizado campañas de concientización ambiental con el personal?",
+        "answer": "no"
+      },
+      {
+        "weight": 1,
+        "section": "C. Ambiental",
+        "id": "ambiental_15",
+        "notes": "",
+        "question": "¿La granja tiene zonas de vegetación o barreras vivas para mitigación de impactos?",
+        "answer": "no"
+      },
+      {
+        "weight": 1,
+        "section": "C. Ambiental",
+        "id": "ambiental_16",
+        "notes": "",
+        "question": "¿Se cuenta con autorización para el uso de fuentes hídricas (pozos, acequias, etc.)?",
+        "answer": "si"
+      },
+      {
+        "weight": 1,
+        "section": "C. Ambiental",
+        "id": "ambiental_17",
+        "notes": "",
+        "question": "¿Los productos de limpieza y desinfección utilizados son biodegradables o de bajo impacto ambiental?",
+        "answer": "no"
+      },
+      {
+        "weight": 1,
+        "section": "C. Ambiental",
+        "id": "ambiental_18",
+        "notes": "",
+        "question": "¿Se reportan incidentes ambientales a la autoridad competente cuando se presentan?",
+        "answer": "si"
+      },
+      {
+        "weight": 1,
+        "section": "C. Ambiental",
+        "id": "ambiental_19",
+        "notes": "",
+        "question": "¿Existe un inventario de sustancias químicas y hoja de seguridad (MSDS) para cada una?",
+        "answer": "no"
+      },
+      {
+        "weight": 1,
+        "section": "C. Ambiental",
+        "id": "ambiental_20",
+        "notes": "",
+        "question": "¿La granja participa en programas de responsabilidad ambiental del sector avícola?",
+        "answer": "si"
+      },
+      {
+        "weight": 1,
+        "section": "G. Sanitario",
+        "id": "sanitario_1",
+        "notes": "",
+        "question": "¿La granja cuenta con registro sanitario ICA vigente y actualizado?",
+        "answer": "si"
+      },
+      {
+        "weight": 1,
+        "section": "G. Sanitario",
+        "id": "sanitario_2",
+        "notes": "",
+        "question": "¿El programa de vacunación está definido, documentado y se cumple en los tiempos establecidos?",
+        "answer": "si"
+      },
+      {
+        "weight": 1,
+        "section": "G. Sanitario",
+        "id": "sanitario_3",
+        "notes": "",
+        "question": "¿Las vacunas aplicadas están aprobadas por el ICA y son de fuente certificada?",
+        "answer": "no"
+      },
+      {
+        "weight": 1,
+        "section": "G. Sanitario",
+        "id": "sanitario_4",
+        "notes": "",
+        "question": "¿Las personas que aplican medicamentos y vacunas están capacitadas para esta actividad?",
+        "answer": "no"
+      },
+      {
+        "weight": 1,
+        "section": "G. Sanitario",
+        "id": "sanitario_5",
+        "notes": "",
+        "question": "¿Existe un veterinario responsable asignado a la granja con visitas periódicas programadas?",
+        "answer": "no"
+      },
+      {
+        "weight": 1,
+        "section": "G. Sanitario",
+        "id": "sanitario_6",
+        "notes": "",
+        "question": "¿Se realiza seguimiento serológico post-vacunal para verificar la respuesta inmune del lote?",
+        "answer": "si"
+      },
+      {
+        "weight": 1,
+        "section": "G. Sanitario",
+        "id": "sanitario_7",
+        "notes": "",
+        "question": "¿Se respetan los tiempos de retiro de medicamentos antes del envío a sacrificio?",
+        "answer": "no"
+      },
+      {
+        "weight": 1,
+        "section": "G. Sanitario",
+        "id": "sanitario_8",
+        "notes": "",
+        "question": "¿Los tratamientos médicos son formulados y autorizados por un médico veterinario?",
+        "answer": "si"
+      },
+      {
+        "weight": 1,
+        "section": "G. Sanitario",
+        "id": "sanitario_9",
+        "notes": "",
+        "question": "¿Los diagnósticos clínicos se confirman con apoyo de laboratorio cuando es necesario?",
+        "answer": "no"
+      },
+      {
+        "weight": 1,
+        "section": "G. Sanitario",
+        "id": "sanitario_10",
+        "notes": "",
+        "question": "¿Los resultados de laboratorio son archivados y están disponibles para auditoría?",
+        "answer": "si"
+      },
+      {
+        "weight": 1,
+        "section": "G. Sanitario",
+        "id": "sanitario_11",
+        "notes": "",
+        "question": "¿La granja mantiene libre de enfermedades de control oficial (Newcastle, Influenza, etc.)?",
+        "answer": "si"
+      },
+      {
+        "weight": 1,
+        "section": "G. Sanitario",
+        "id": "sanitario_12",
+        "notes": "",
+        "question": "¿Se realiza monitoreo serológico periódico para enfermedades prioritarias del sector?",
+        "answer": "no"
+      },
+      {
+        "weight": 1,
+        "section": "G. Sanitario",
+        "id": "sanitario_13",
+        "notes": "",
+        "question": "¿Existe un programa de control de ectoparásitos (ácaros, piojos) implementado?",
+        "answer": "no"
+      },
+      {
+        "weight": 1,
+        "section": "G. Sanitario",
+        "id": "sanitario_14",
+        "notes": "",
+        "question": "¿Se notifica oportunamente a la ICA ante sospecha de enfermedad de control oficial?",
+        "answer": "si"
+      },
+      {
+        "weight": 1,
+        "section": "G. Sanitario",
+        "id": "sanitario_15",
+        "notes": "",
+        "question": "¿El agua suministrada a las aves cumple con los parámetros de potabilidad definidos?",
+        "answer": "si"
+      },
+      {
+        "weight": 1,
+        "section": "G. Sanitario",
+        "id": "sanitario_16",
+        "notes": "",
+        "question": "¿Los criterios de selección de pollitos al ingreso están documentados y se aplican?",
+        "answer": "si"
+      },
+      {
+        "weight": 1,
+        "section": "G. Sanitario",
+        "id": "sanitario_17",
+        "notes": "",
+        "question": "¿Se realizan necropsias sistemáticas y los hallazgos se clasifican por sistema orgánico afectado?",
+        "answer": "si"
+      },
+      {
+        "weight": 1,
+        "section": "G. Sanitario",
+        "id": "sanitario_18",
+        "notes": "",
+        "question": "¿Existe un historial clínico completo por lote desde el ingreso hasta el despacho?",
+        "answer": "si"
+      },
+      {
+        "weight": 1,
+        "section": "G. Sanitario",
+        "id": "sanitario_19",
+        "notes": "",
+        "question": "¿Se realiza evaluación de bienestar animal con registros de indicadores basados en el lote?",
+        "answer": "no"
+      },
+      {
+        "weight": 1,
+        "section": "G. Sanitario",
+        "id": "sanitario_20",
+        "notes": "",
+        "question": "¿Los indicadores sanitarios del ciclo (IEP, mortalidad, conversión) se comparan contra estándares de la línea?",
+        "answer": "si"
+      },
+      {
+        "weight": 1,
+        "section": "I. Bioseguridad",
+        "id": "bioseguridad_1",
+        "notes": "",
+        "question": "¿La granja cuenta con un programa de bioseguridad documentado, aprobado y en ejecución?",
+        "answer": "si"
+      },
+      {
+        "weight": 1,
+        "section": "I. Bioseguridad",
+        "id": "bioseguridad_2",
+        "notes": "",
+        "question": "¿Existe una zona de acceso controlado (zona sucia, zona limpia) claramente delimitada?",
+        "answer": "no"
+      },
+      {
+        "weight": 1,
+        "section": "I. Bioseguridad",
+        "id": "bioseguridad_3",
+        "notes": "",
+        "question": "¿Los pediluvios están activos, con solución desinfectante renovada y en puntos de ingreso?",
+        "answer": "si"
+      },
+      {
+        "weight": 1,
+        "section": "I. Bioseguridad",
+        "id": "bioseguridad_4",
+        "notes": "",
+        "question": "¿Los visitantes y personal externo registran su ingreso y cumplen con los protocolos establecidos?",
+        "answer": "si"
+      },
+      {
+        "weight": 1,
+        "section": "I. Bioseguridad",
+        "id": "bioseguridad_5",
+        "notes": "",
+        "question": "¿El tiempo mínimo de baja sanitaria antes de ingresar a la granja se cumple según protocolo?",
+        "answer": "si"
+      },
+      {
+        "weight": 1,
+        "section": "I. Bioseguridad",
+        "id": "bioseguridad_6",
+        "notes": "",
+        "question": "¿El personal usa equipo de protección personal (overol, botas, guantes, gorro) al ingresar al galpón?",
+        "answer": "si"
+      },
+      {
+        "weight": 1,
+        "section": "I. Bioseguridad",
+        "id": "bioseguridad_7",
+        "notes": "",
+        "question": "¿Los vehículos de proveedores y transporte no ingresan a las instalaciones sin autorización?",
+        "answer": "no"
+      },
+      {
+        "weight": 1,
+        "section": "I. Bioseguridad",
+        "id": "bioseguridad_8",
+        "notes": "",
+        "question": "¿Se realizan lavado y desinfección de vehículos autorizados antes de su ingreso?",
+        "answer": "pendiente"
+      },
+      {
+        "weight": 1,
+        "section": "I. Bioseguridad",
+        "id": "bioseguridad_9",
+        "notes": "",
+        "question": "¿Existe un programa de control de plagas (roedores, aves silvestres, insectos) documentado?",
+        "answer": "na"
+      },
+      {
+        "weight": 1,
+        "section": "I. Bioseguridad",
+        "id": "bioseguridad_10",
+        "notes": "",
+        "question": "¿El personal de la granja no tiene contacto con aves de patio u otras especies avícolas?",
+        "answer": "si"
+      },
+      {
+        "weight": 1,
+        "section": "I. Bioseguridad",
+        "id": "bioseguridad_11",
+        "notes": "",
+        "question": "¿Los equipos y materiales que ingresan al galpón se desinfectan antes de ser usados?",
+        "answer": "no"
+      },
+      {
+        "weight": 1,
+        "section": "I. Bioseguridad",
+        "id": "bioseguridad_12",
+        "notes": "",
+        "question": "¿Los ciclos de vacío sanitario entre lotes se respetan con limpieza y desinfección profunda?",
+        "answer": "si"
+      },
+      {
+        "weight": 1,
+        "section": "I. Bioseguridad",
+        "id": "bioseguridad_13",
+        "notes": "",
+        "question": "¿Se verifica la eficacia de la desinfección mediante análisis microbiológico antes del repoblamiento?",
+        "answer": "si"
+      },
+      {
+        "weight": 1,
+        "section": "I. Bioseguridad",
+        "id": "bioseguridad_14",
+        "notes": "",
+        "question": "¿El uso de antibióticos se hace únicamente bajo prescripción veterinaria y registro?",
+        "answer": "no"
+      },
+      {
+        "weight": 1,
+        "section": "I. Bioseguridad",
+        "id": "bioseguridad_15",
+        "notes": "",
+        "question": "¿Los trabajadores no comparten herramientas ni equipos entre galpones sin desinfección previa?",
+        "answer": "no"
+      },
+      {
+        "weight": 1,
+        "section": "I. Bioseguridad",
+        "id": "bioseguridad_16",
+        "notes": "",
+        "question": "¿Existe un protocolo claro para el manejo de aves enfermas o sospechosas de enfermedad?",
+        "answer": "na"
+      },
+      {
+        "weight": 1,
+        "section": "I. Bioseguridad",
+        "id": "bioseguridad_17",
+        "notes": "",
+        "question": "¿Se capacita periódicamente al personal sobre los protocolos de bioseguridad vigentes?",
+        "answer": "si"
+      },
+      {
+        "weight": 1,
+        "section": "I. Bioseguridad",
+        "id": "bioseguridad_18",
+        "notes": "",
+        "question": "¿Los indicadores de bioseguridad (registro de visitas, cumplimiento de baja sanitaria) son monitoreados?",
+        "answer": "si"
+      },
+      {
+        "weight": 1,
+        "section": "I. Bioseguridad",
+        "id": "bioseguridad_19",
+        "notes": "",
+        "question": "¿El agua de bebida es tratada con desinfectante o es potabilizada antes de ser suministrada?",
+        "answer": "si"
+      },
+      {
+        "weight": 1,
+        "section": "I. Bioseguridad",
+        "id": "bioseguridad_20",
+        "notes": "",
+        "question": "¿Se realizan auditorías internas de bioseguridad con frecuencia definida y con registro de resultados?",
+        "answer": "no"
+      }
+    ],
+    "title": "Bodegas",
+    "type": "bioseguridad",
+    "scheduled_date": "2026-05-21",
+    "auditor_email": "",
+    "completed_date": null,
+    "score": null,
+    "barn_id": "",
+    "farm_id": "6a0b499deaacbc1c26be9c7c",
+    "status": "en_proceso",
+    "id": "6a0f060a6a13d5e1891f28b1",
+    "created_date": "2026-05-21T13:18:02.067000",
+    "updated_date": "2026-05-21T13:24:29.069000",
+    "created_by_id": "6a0a53866b4d272c3b1d474b",
+    "created_by": "msduran1994@gmail.com",
+    "is_sample": false
+  },
+  {
+    "summary": "",
+    "metadata": null,
+    "auditor": "Michael Duran",
+    "checklist": [
+      {
+        "weight": 1,
+        "section": "A. Financiero",
+        "id": "financiero_1",
+        "notes": "",
+        "question": "¿Se lleva un registro contable actualizado de ingresos y egresos de la granja?",
+        "answer": "pendiente"
+      },
+      {
+        "weight": 1,
+        "section": "A. Financiero",
+        "id": "financiero_2",
+        "notes": "",
+        "question": "¿Los gastos operativos están sustentados con facturas y comprobantes legales?",
+        "answer": "pendiente"
+      },
+      {
+        "weight": 1,
+        "section": "A. Financiero",
+        "id": "financiero_3",
+        "notes": "",
+        "question": "¿Existe presupuesto aprobado para el ciclo productivo actual?",
+        "answer": "pendiente"
+      },
+      {
+        "weight": 1,
+        "section": "A. Financiero",
+        "id": "financiero_4",
+        "notes": "",
+        "question": "¿Se comparan los costos de producción reales vs. presupuestados periódicamente?",
+        "answer": "pendiente"
+      },
+      {
+        "weight": 1,
+        "section": "A. Financiero",
+        "id": "financiero_5",
+        "notes": "",
+        "question": "¿El costo por kilogramo de pollo producido está dentro del rango establecido?",
+        "answer": "pendiente"
+      },
+      {
+        "weight": 1,
+        "section": "A. Financiero",
+        "id": "financiero_6",
+        "notes": "",
+        "question": "¿Se registran diariamente los consumos de alimento y su costo asociado?",
+        "answer": "pendiente"
+      },
+      {
+        "weight": 1,
+        "section": "A. Financiero",
+        "id": "financiero_7",
+        "notes": "",
+        "question": "¿Existe control de inventario valorizado de insumos y medicamentos?",
+        "answer": "pendiente"
+      },
+      {
+        "weight": 1,
+        "section": "A. Financiero",
+        "id": "financiero_8",
+        "notes": "",
+        "question": "¿Se realizan conciliaciones bancarias mensuales?",
+        "answer": "pendiente"
+      },
+      {
+        "weight": 1,
+        "section": "A. Financiero",
+        "id": "financiero_9",
+        "notes": "",
+        "question": "¿Los pagos a proveedores están al día y sin vencimientos atrasados?",
+        "answer": "pendiente"
+      },
+      {
+        "weight": 1,
+        "section": "A. Financiero",
+        "id": "financiero_10",
+        "notes": "",
+        "question": "¿Se realiza análisis de rentabilidad por lote o ciclo productivo?",
+        "answer": "pendiente"
+      },
+      {
+        "weight": 1,
+        "section": "A. Financiero",
+        "id": "financiero_11",
+        "notes": "",
+        "question": "¿Existe un fondo de contingencia para imprevistos operativos?",
+        "answer": "pendiente"
+      },
+      {
+        "weight": 1,
+        "section": "A. Financiero",
+        "id": "financiero_12",
+        "notes": "",
+        "question": "¿Se controlan los costos de mano de obra vs. producción?",
+        "answer": "pendiente"
+      },
+      {
+        "weight": 1,
+        "section": "A. Financiero",
+        "id": "financiero_13",
+        "notes": "",
+        "question": "¿Los registros de ventas coinciden con las facturas emitidas?",
+        "answer": "pendiente"
+      },
+      {
+        "weight": 1,
+        "section": "A. Financiero",
+        "id": "financiero_14",
+        "notes": "",
+        "question": "¿Se reporta mensualmente el estado financiero al área de gerencia?",
+        "answer": "pendiente"
+      },
+      {
+        "weight": 1,
+        "section": "A. Financiero",
+        "id": "financiero_15",
+        "notes": "",
+        "question": "¿Existen indicadores financieros definidos (FCR, costo/kg, etc.)?",
+        "answer": "pendiente"
+      },
+      {
+        "weight": 1,
+        "section": "A. Financiero",
+        "id": "financiero_16",
+        "notes": "",
+        "question": "¿Se controlan las pérdidas por mortalidad en términos económicos?",
+        "answer": "pendiente"
+      },
+      {
+        "weight": 1,
+        "section": "A. Financiero",
+        "id": "financiero_17",
+        "notes": "",
+        "question": "¿Los contratos con proveedores están vigentes y firmados?",
+        "answer": "pendiente"
+      },
+      {
+        "weight": 1,
+        "section": "A. Financiero",
+        "id": "financiero_18",
+        "notes": "",
+        "question": "¿Se lleva registro de activos fijos y su depreciación?",
+        "answer": "pendiente"
+      },
+      {
+        "weight": 1,
+        "section": "A. Financiero",
+        "id": "financiero_19",
+        "notes": "",
+        "question": "¿Existe un análisis de punto de equilibrio actualizado?",
+        "answer": "pendiente"
+      },
+      {
+        "weight": 1,
+        "section": "A. Financiero",
+        "id": "financiero_20",
+        "notes": "",
+        "question": "¿El auditor interno o externo ha revisado los estados financieros en el último semestre?",
+        "answer": "pendiente"
+      },
+      {
+        "weight": 1,
+        "section": "B. Infraestructura",
+        "id": "infraestructura_1",
+        "notes": "",
+        "question": "¿La estructura del galpón está en buen estado sin goteras, fisuras o daños evidentes?",
+        "answer": "si"
+      },
+      {
+        "weight": 1,
+        "section": "B. Infraestructura",
+        "id": "infraestructura_2",
+        "notes": "",
+        "question": "¿El sistema de ventilación funciona correctamente (extractores, cortinas, entradas de aire)?",
+        "answer": "no"
+      },
+      {
+        "weight": 1,
+        "section": "B. Infraestructura",
+        "id": "infraestructura_3",
+        "notes": "",
+        "question": "¿Los comederos y bebederos están en buen estado y funcionan correctamente?",
+        "answer": "pendiente"
+      },
+      {
+        "weight": 1,
+        "section": "B. Infraestructura",
+        "id": "infraestructura_4",
+        "notes": "",
+        "question": "¿El sistema eléctrico cumple con normas de seguridad y está en buen estado?",
+        "answer": "si"
+      },
+      {
+        "weight": 1,
+        "section": "B. Infraestructura",
+        "id": "infraestructura_5",
+        "notes": "",
+        "question": "¿Las instalaciones de agua potable son suficientes y están en buen estado?",
+        "answer": "si"
+      },
+      {
+        "weight": 1,
+        "section": "B. Infraestructura",
+        "id": "infraestructura_6",
+        "notes": "",
+        "question": "¿Los sistemas de iluminación funcionan correctamente en todas las áreas?",
+        "answer": "no"
+      },
+      {
+        "weight": 1,
+        "section": "B. Infraestructura",
+        "id": "infraestructura_7",
+        "notes": "",
+        "question": "¿Los equipos de calefacción o enfriamiento están operativos y calibrados?",
+        "answer": "no"
+      },
+      {
+        "weight": 1,
+        "section": "B. Infraestructura",
+        "id": "infraestructura_8",
+        "notes": "",
+        "question": "¿Las básculas y equipos de pesaje están calibrados y con certificado vigente?",
+        "answer": "pendiente"
+      },
+      {
+        "weight": 1,
+        "section": "B. Infraestructura",
+        "id": "infraestructura_9",
+        "notes": "",
+        "question": "¿Los silos y sistemas de almacenamiento de alimento están en buen estado?",
+        "answer": "pendiente"
+      },
+      {
+        "weight": 1,
+        "section": "B. Infraestructura",
+        "id": "infraestructura_10",
+        "notes": "",
+        "question": "¿Las vías de acceso interno están en buenas condiciones y son transitables?",
+        "answer": "pendiente"
+      },
+      {
+        "weight": 1,
+        "section": "B. Infraestructura",
+        "id": "infraestructura_11",
+        "notes": "",
+        "question": "¿La cerca perimetral está en buen estado y cumple función de bioseguridad?",
+        "answer": "pendiente"
+      },
+      {
+        "weight": 1,
+        "section": "B. Infraestructura",
+        "id": "infraestructura_12",
+        "notes": "",
+        "question": "¿Existen sistemas de alarma para alertas de temperatura o falla eléctrica?",
+        "answer": "pendiente"
+      },
+      {
+        "weight": 1,
+        "section": "B. Infraestructura",
+        "id": "infraestructura_13",
+        "notes": "",
+        "question": "¿Los equipos de bombeo de agua funcionan correctamente?",
+        "answer": "pendiente"
+      },
+      {
+        "weight": 1,
+        "section": "B. Infraestructura",
+        "id": "infraestructura_14",
+        "notes": "",
+        "question": "¿Las oficinas y áreas de bienestar del personal están en buenas condiciones?",
+        "answer": "pendiente"
+      },
+      {
+        "weight": 1,
+        "section": "B. Infraestructura",
+        "id": "infraestructura_15",
+        "notes": "",
+        "question": "¿Los sistemas de drenaje y desagüe funcionan sin obstrucciones?",
+        "answer": "pendiente"
+      },
+      {
+        "weight": 1,
+        "section": "B. Infraestructura",
+        "id": "infraestructura_16",
+        "notes": "",
+        "question": "¿Existe plano actualizado de la distribución de instalaciones de la granja?",
+        "answer": "pendiente"
+      },
+      {
+        "weight": 1,
+        "section": "B. Infraestructura",
+        "id": "infraestructura_17",
+        "notes": "",
+        "question": "¿Los equipos de generación eléctrica de emergencia están operativos?",
+        "answer": "pendiente"
+      },
+      {
+        "weight": 1,
+        "section": "B. Infraestructura",
+        "id": "infraestructura_18",
+        "notes": "",
+        "question": "¿El almacén de insumos cumple con condiciones de temperatura y humedad requeridas?",
+        "answer": "pendiente"
+      },
+      {
+        "weight": 1,
+        "section": "B. Infraestructura",
+        "id": "infraestructura_19",
+        "notes": "",
+        "question": "¿Se realiza mantenimiento preventivo periódico registrado de equipos e instalaciones?",
+        "answer": "pendiente"
+      },
+      {
+        "weight": 1,
+        "section": "B. Infraestructura",
+        "id": "infraestructura_20",
+        "notes": "",
+        "question": "¿Las áreas de sacrificio o despacho cumplen con normas sanitarias vigentes?",
+        "answer": "pendiente"
+      },
+      {
+        "weight": 1,
+        "section": "C. Ambiental",
+        "id": "ambiental_1",
+        "notes": "",
+        "question": "¿La granja cuenta con licencia ambiental o concepto favorable de la autoridad ambiental?",
+        "answer": "pendiente"
+      },
+      {
+        "weight": 1,
+        "section": "C. Ambiental",
+        "id": "ambiental_2",
+        "notes": "",
+        "question": "¿Se realiza gestión adecuada de gallinaza y residuos orgánicos de la producción?",
+        "answer": "pendiente"
+      },
+      {
+        "weight": 1,
+        "section": "C. Ambiental",
+        "id": "ambiental_3",
+        "notes": "",
+        "question": "¿Los residuos sólidos (empaques, envases) se clasifican y disponen correctamente?",
+        "answer": "pendiente"
+      },
+      {
+        "weight": 1,
+        "section": "C. Ambiental",
+        "id": "ambiental_4",
+        "notes": "",
+        "question": "¿Los residuos peligrosos (fármacos vencidos, envases de productos químicos) se gestionan según normativa?",
+        "answer": "pendiente"
+      },
+      {
+        "weight": 1,
+        "section": "C. Ambiental",
+        "id": "ambiental_5",
+        "notes": "",
+        "question": "¿Existe programa de compostaje o aprovechamiento de residuos orgánicos?",
+        "answer": "pendiente"
+      },
+      {
+        "weight": 1,
+        "section": "C. Ambiental",
+        "id": "ambiental_6",
+        "notes": "",
+        "question": "¿El consumo de agua se registra y se han implementado medidas de ahorro?",
+        "answer": "no"
+      },
+      {
+        "weight": 1,
+        "section": "C. Ambiental",
+        "id": "ambiental_7",
+        "notes": "",
+        "question": "¿Las fuentes de agua utilizadas cumplen con estándares de calidad establecidos?",
+        "answer": "na"
+      },
+      {
+        "weight": 1,
+        "section": "C. Ambiental",
+        "id": "ambiental_8",
+        "notes": "",
+        "question": "¿Se controlan los vertimientos de aguas residuales conforme a la norma?",
+        "answer": "si"
+      },
+      {
+        "weight": 1,
+        "section": "C. Ambiental",
+        "id": "ambiental_9",
+        "notes": "",
+        "question": "¿Existen medidas para el control de olores hacia comunidades vecinas?",
+        "answer": "si"
+      },
+      {
+        "weight": 1,
+        "section": "C. Ambiental",
+        "id": "ambiental_10",
+        "notes": "",
+        "question": "¿Se realizan controles de ruido y se cumplen los límites permitidos?",
+        "answer": "si"
+      },
+      {
+        "weight": 1,
+        "section": "C. Ambiental",
+        "id": "ambiental_11",
+        "notes": "",
+        "question": "¿La mortalidad de aves se dispone de manera ambientalmente segura (compostaje, incineración autorizada)?",
+        "answer": "si"
+      },
+      {
+        "weight": 1,
+        "section": "C. Ambiental",
+        "id": "ambiental_12",
+        "notes": "",
+        "question": "¿Existe plan de gestión ambiental documentado y actualizado?",
+        "answer": "si"
+      },
+      {
+        "weight": 1,
+        "section": "C. Ambiental",
+        "id": "ambiental_13",
+        "notes": "",
+        "question": "¿Se registra el consumo de energía eléctrica y se han implementado medidas de eficiencia?",
+        "answer": "pendiente"
+      },
+      {
+        "weight": 1,
+        "section": "C. Ambiental",
+        "id": "ambiental_14",
+        "notes": "",
+        "question": "¿Se han realizado campañas de concientización ambiental con el personal?",
+        "answer": "pendiente"
+      },
+      {
+        "weight": 1,
+        "section": "C. Ambiental",
+        "id": "ambiental_15",
+        "notes": "",
+        "question": "¿La granja tiene zonas de vegetación o barreras vivas para mitigación de impactos?",
+        "answer": "pendiente"
+      },
+      {
+        "weight": 1,
+        "section": "C. Ambiental",
+        "id": "ambiental_16",
+        "notes": "",
+        "question": "¿Se cuenta con autorización para el uso de fuentes hídricas (pozos, acequias, etc.)?",
+        "answer": "pendiente"
+      },
+      {
+        "weight": 1,
+        "section": "C. Ambiental",
+        "id": "ambiental_17",
+        "notes": "",
+        "question": "¿Los productos de limpieza y desinfección utilizados son biodegradables o de bajo impacto ambiental?",
+        "answer": "pendiente"
+      },
+      {
+        "weight": 1,
+        "section": "C. Ambiental",
+        "id": "ambiental_18",
+        "notes": "",
+        "question": "¿Se reportan incidentes ambientales a la autoridad competente cuando se presentan?",
+        "answer": "pendiente"
+      },
+      {
+        "weight": 1,
+        "section": "C. Ambiental",
+        "id": "ambiental_19",
+        "notes": "",
+        "question": "¿Existe un inventario de sustancias químicas y hoja de seguridad (MSDS) para cada una?",
+        "answer": "pendiente"
+      },
+      {
+        "weight": 1,
+        "section": "C. Ambiental",
+        "id": "ambiental_20",
+        "notes": "",
+        "question": "¿La granja participa en programas de responsabilidad ambiental del sector avícola?",
+        "answer": "pendiente"
+      },
+      {
+        "weight": 1,
+        "section": "D. Operativo",
+        "id": "operativo_1",
+        "notes": "",
+        "question": "¿Existe un programa de producción documentado y se está cumpliendo según lo planificado?",
+        "answer": "pendiente"
+      },
+      {
+        "weight": 1,
+        "section": "D. Operativo",
+        "id": "operativo_2",
+        "notes": "",
+        "question": "¿Los tiempos de vacío sanitario entre lotes se respetan según el protocolo establecido?",
+        "answer": "si"
+      },
+      {
+        "weight": 1,
+        "section": "D. Operativo",
+        "id": "operativo_3",
+        "notes": "",
+        "question": "¿El personal operativo cuenta con la capacitación necesaria para sus funciones?",
+        "answer": "si"
+      },
+      {
+        "weight": 1,
+        "section": "D. Operativo",
+        "id": "operativo_4",
+        "notes": "",
+        "question": "¿Se registran diariamente las actividades de producción (consumo, pesaje, mortalidad)?",
+        "answer": "si"
+      },
+      {
+        "weight": 1,
+        "section": "D. Operativo",
+        "id": "operativo_5",
+        "notes": "",
+        "question": "¿Los procedimientos operativos estandarizados (POEs) están documentados y disponibles?",
+        "answer": "na"
+      },
+      {
+        "weight": 1,
+        "section": "D. Operativo",
+        "id": "operativo_6",
+        "notes": "",
+        "question": "¿Los indicadores productivos (conversión alimenticia, ganancia de peso) se revisan periódicamente?",
+        "answer": "pendiente"
+      },
+      {
+        "weight": 1,
+        "section": "D. Operativo",
+        "id": "operativo_7",
+        "notes": "",
+        "question": "¿El manejo del lote en términos de densidad cumple con las recomendaciones técnicas?",
+        "answer": "no"
+      },
+      {
+        "weight": 1,
+        "section": "D. Operativo",
+        "id": "operativo_8",
+        "notes": "",
+        "question": "¿Se realizan pesajes periódicos del lote para seguimiento del crecimiento?",
+        "answer": "pendiente"
+      },
+      {
+        "weight": 1,
+        "section": "D. Operativo",
+        "id": "operativo_9",
+        "notes": "",
+        "question": "¿El programa de iluminación se aplica según recomendaciones técnicas vigentes?",
+        "answer": "pendiente"
+      },
+      {
+        "weight": 1,
+        "section": "D. Operativo",
+        "id": "operativo_10",
+        "notes": "",
+        "question": "¿Las condiciones ambientales internas (temperatura, humedad) se registran y controlan?",
+        "answer": "pendiente"
+      },
+      {
+        "weight": 1,
+        "section": "D. Operativo",
+        "id": "operativo_11",
+        "notes": "",
+        "question": "¿Existe un programa de mantenimiento de equipos operativos implementado?",
+        "answer": "pendiente"
+      },
+      {
+        "weight": 1,
+        "section": "D. Operativo",
+        "id": "operativo_12",
+        "notes": "",
+        "question": "¿Los tiempos de espera en planta de beneficio se minimizan para garantizar bienestar animal?",
+        "answer": "pendiente"
+      },
+      {
+        "weight": 1,
+        "section": "D. Operativo",
+        "id": "operativo_13",
+        "notes": "",
+        "question": "¿Se realizan auditorías internas operativas periódicas?",
+        "answer": "si"
+      },
+      {
+        "weight": 1,
+        "section": "D. Operativo",
+        "id": "operativo_14",
+        "notes": "",
+        "question": "¿Existe un plan de contingencia ante fallas eléctricas o de equipos críticos?",
+        "answer": "si"
+      },
+      {
+        "weight": 1,
+        "section": "D. Operativo",
+        "id": "operativo_15",
+        "notes": "",
+        "question": "¿Los rollos de viruta u otra cama utilizada cumplen con parámetros de calidad aceptables?",
+        "answer": "pendiente"
+      },
+      {
+        "weight": 1,
+        "section": "D. Operativo",
+        "id": "operativo_16",
+        "notes": "",
+        "question": "¿La rotación del personal es controlada para evitar riesgos de bioseguridad?",
+        "answer": "pendiente"
+      },
+      {
+        "weight": 1,
+        "section": "D. Operativo",
+        "id": "operativo_17",
+        "notes": "",
+        "question": "¿Los registros de producción están debidamente custodiados y archivados?",
+        "answer": "pendiente"
+      },
+      {
+        "weight": 1,
+        "section": "D. Operativo",
+        "id": "operativo_18",
+        "notes": "",
+        "question": "¿Los resultados productivos del ciclo se comparan contra la línea genética del lote?",
+        "answer": "pendiente"
+      },
+      {
+        "weight": 1,
+        "section": "D. Operativo",
+        "id": "operativo_19",
+        "notes": "",
+        "question": "¿Se llevan a cabo reuniones de seguimiento técnico entre el operario y el asesor veterinario?",
+        "answer": "pendiente"
+      },
+      {
+        "weight": 1,
+        "section": "D. Operativo",
+        "id": "operativo_20",
+        "notes": "",
+        "question": "¿Se documenta el cumplimiento de los planes de acción definidos por auditorías previas?",
+        "answer": "pendiente"
+      },
+      {
+        "weight": 1,
+        "section": "E. Mortalidad",
+        "id": "mortalidad_1",
+        "notes": "",
+        "question": "¿El porcentaje de mortalidad acumulada está dentro del rango aceptable para la línea genética?",
+        "answer": "no"
+      },
+      {
+        "weight": 1,
+        "section": "E. Mortalidad",
+        "id": "mortalidad_2",
+        "notes": "",
+        "question": "¿Se registra diariamente la mortalidad por galpón, diferenciando causas cuando es posible?",
+        "answer": "no"
+      },
+      {
+        "weight": 1,
+        "section": "E. Mortalidad",
+        "id": "mortalidad_3",
+        "notes": "",
+        "question": "¿Se realizan necropsias a los animales muertos para determinar causas de mortalidad?",
+        "answer": "si"
+      },
+      {
+        "weight": 1,
+        "section": "E. Mortalidad",
+        "id": "mortalidad_4",
+        "notes": "",
+        "question": "¿Los resultados de necropsias se reportan al veterinario a cargo oportunamente?",
+        "answer": "si"
+      },
+      {
+        "weight": 1,
+        "section": "E. Mortalidad",
+        "id": "mortalidad_5",
+        "notes": "",
+        "question": "¿Existe trazabilidad de los picos de mortalidad registrados durante el ciclo?",
+        "answer": "si"
+      },
+      {
+        "weight": 1,
+        "section": "E. Mortalidad",
+        "id": "mortalidad_6",
+        "notes": "",
+        "question": "¿La mortalidad de las primeras 24-72 horas (pollitos) está dentro de parámetros aceptables?",
+        "answer": "pendiente"
+      },
+      {
+        "weight": 1,
+        "section": "E. Mortalidad",
+        "id": "mortalidad_7",
+        "notes": "",
+        "question": "¿Se compara la mortalidad actual con el histórico de lotes anteriores en la misma granja?",
+        "answer": "pendiente"
+      },
+      {
+        "weight": 1,
+        "section": "E. Mortalidad",
+        "id": "mortalidad_8",
+        "notes": "",
+        "question": "¿Se dispone adecuadamente de los cadáveres conforme al protocolo ambiental y sanitario?",
+        "answer": "pendiente"
+      },
+      {
+        "weight": 1,
+        "section": "E. Mortalidad",
+        "id": "mortalidad_9",
+        "notes": "",
+        "question": "¿La mortalidad por causas metabólicas (síndrome ascítico, muerte súbita) es monitoreada?",
+        "answer": "pendiente"
+      },
+      {
+        "weight": 1,
+        "section": "E. Mortalidad",
+        "id": "mortalidad_10",
+        "notes": "",
+        "question": "¿Ante un incremento de mortalidad, se activa el protocolo de alerta sanitaria?",
+        "answer": "pendiente"
+      },
+      {
+        "weight": 1,
+        "section": "E. Mortalidad",
+        "id": "mortalidad_11",
+        "notes": "",
+        "question": "¿Se notifica a la ICA eventos de mortalidad inusual o sospecha de enfermedad de control oficial?",
+        "answer": "pendiente"
+      },
+      {
+        "weight": 1,
+        "section": "E. Mortalidad",
+        "id": "mortalidad_12",
+        "notes": "",
+        "question": "¿Los datos de mortalidad son incluidos en el análisis de costos del ciclo?",
+        "answer": "pendiente"
+      },
+      {
+        "weight": 1,
+        "section": "E. Mortalidad",
+        "id": "mortalidad_13",
+        "notes": "",
+        "question": "¿Se aplican ajustes en el programa de manejo ante picos de mortalidad?",
+        "answer": "pendiente"
+      },
+      {
+        "weight": 1,
+        "section": "E. Mortalidad",
+        "id": "mortalidad_14",
+        "notes": "",
+        "question": "¿El personal está capacitado para identificar signos clínicos que preceden un aumento de mortalidad?",
+        "answer": "pendiente"
+      },
+      {
+        "weight": 1,
+        "section": "E. Mortalidad",
+        "id": "mortalidad_15",
+        "notes": "",
+        "question": "¿Se diferencia la mortalidad por causas infecciosas de las no infecciosas?",
+        "answer": "pendiente"
+      },
+      {
+        "weight": 1,
+        "section": "E. Mortalidad",
+        "id": "mortalidad_16",
+        "notes": "",
+        "question": "¿Existen registros de lesiones frecuentes encontradas en necropsias clasificadas por semana productiva?",
+        "answer": "pendiente"
+      },
+      {
+        "weight": 1,
+        "section": "E. Mortalidad",
+        "id": "mortalidad_17",
+        "notes": "",
+        "question": "¿Se realizan pruebas de laboratorio (histopatología, serología) cuando la mortalidad es inusual?",
+        "answer": "pendiente"
+      },
+      {
+        "weight": 1,
+        "section": "E. Mortalidad",
+        "id": "mortalidad_18",
+        "notes": "",
+        "question": "¿Los animales en mal estado (débiles, enfermos) son retirados a tiempo del lote?",
+        "answer": "pendiente"
+      },
+      {
+        "weight": 1,
+        "section": "E. Mortalidad",
+        "id": "mortalidad_19",
+        "notes": "",
+        "question": "¿La mortalidad reportada coincide con los registros de disposición final de cadáveres?",
+        "answer": "pendiente"
+      },
+      {
+        "weight": 1,
+        "section": "E. Mortalidad",
+        "id": "mortalidad_20",
+        "notes": "",
+        "question": "¿Se analiza el impacto económico de la mortalidad acumulada sobre el resultado del ciclo?",
+        "answer": "pendiente"
+      },
+      {
+        "weight": 1,
+        "section": "F. Inventario / Alimento",
+        "id": "inventario_1",
+        "notes": "",
+        "question": "¿Existe un inventario actualizado y documentado de todos los insumos presentes en la granja?",
+        "answer": "pendiente"
+      },
+      {
+        "weight": 1,
+        "section": "F. Inventario / Alimento",
+        "id": "inventario_2",
+        "notes": "",
+        "question": "¿El alimento almacenado está protegido de humedad, plagas y contaminación?",
+        "answer": "na"
+      },
+      {
+        "weight": 1,
+        "section": "F. Inventario / Alimento",
+        "id": "inventario_3",
+        "notes": "",
+        "question": "¿Los sacos de alimento se identifican con lote, fecha de fabricación y fecha de vencimiento?",
+        "answer": "pendiente"
+      },
+      {
+        "weight": 1,
+        "section": "F. Inventario / Alimento",
+        "id": "inventario_4",
+        "notes": "",
+        "question": "¿Se realiza rotación de inventario bajo el principio PEPS (primero en entrar, primero en salir)?",
+        "answer": "si"
+      },
+      {
+        "weight": 1,
+        "section": "F. Inventario / Alimento",
+        "id": "inventario_5",
+        "notes": "",
+        "question": "¿Los niveles de stock de alimento garantizan la continuidad sin interrupciones en el suministro?",
+        "answer": "si"
+      },
+      {
+        "weight": 1,
+        "section": "F. Inventario / Alimento",
+        "id": "inventario_6",
+        "notes": "",
+        "question": "¿Las guías de remisión de alimento son archivadas y conciliadas con el consumo registrado?",
+        "answer": "si"
+      },
+      {
+        "weight": 1,
+        "section": "F. Inventario / Alimento",
+        "id": "inventario_7",
+        "notes": "",
+        "question": "¿El consumo de alimento por ave/día está dentro de los parámetros de la línea genética?",
+        "answer": "no"
+      },
+      {
+        "weight": 1,
+        "section": "F. Inventario / Alimento",
+        "id": "inventario_8",
+        "notes": "",
+        "question": "¿Se controlan las pérdidas de alimento por derrames o desperdicio en comederos?",
+        "answer": "pendiente"
+      },
+      {
+        "weight": 1,
+        "section": "F. Inventario / Alimento",
+        "id": "inventario_9",
+        "notes": "",
+        "question": "¿El alimento recibido es verificado (cantidad, estado, documentación) antes de ser aceptado?",
+        "answer": "pendiente"
+      },
+      {
+        "weight": 1,
+        "section": "F. Inventario / Alimento",
+        "id": "inventario_10",
+        "notes": "",
+        "question": "¿Los medicamentos y vacunas están almacenados bajo las condiciones de temperatura requeridas?",
+        "answer": "na"
+      },
+      {
+        "weight": 1,
+        "section": "F. Inventario / Alimento",
+        "id": "inventario_11",
+        "notes": "",
+        "question": "¿Las vacunas refrigeradas cuentan con registro de cadena de frío documentado?",
+        "answer": "si"
+      },
+      {
+        "weight": 1,
+        "section": "F. Inventario / Alimento",
+        "id": "inventario_12",
+        "notes": "",
+        "question": "¿Los medicamentos vencidos son identificados, separados y dispuestos correctamente?",
+        "answer": "pendiente"
+      },
+      {
+        "weight": 1,
+        "section": "F. Inventario / Alimento",
+        "id": "inventario_13",
+        "notes": "",
+        "question": "¿Existe un kardex o sistema de control de entradas y salidas de insumos?",
+        "answer": "pendiente"
+      },
+      {
+        "weight": 1,
+        "section": "F. Inventario / Alimento",
+        "id": "inventario_14",
+        "notes": "",
+        "question": "¿Los insumos de bioseguridad (desinfectantes, detergentes) son suficientes para el ciclo?",
+        "answer": "pendiente"
+      },
+      {
+        "weight": 1,
+        "section": "F. Inventario / Alimento",
+        "id": "inventario_15",
+        "notes": "",
+        "question": "¿El alimento suministrado corresponde a la fase productiva del lote (inicio, engorde, finalización)?",
+        "answer": "pendiente"
+      },
+      {
+        "weight": 1,
+        "section": "F. Inventario / Alimento",
+        "id": "inventario_16",
+        "notes": "",
+        "question": "¿Se realizan análisis bromatológicos periódicos al alimento suministrado?",
+        "answer": "pendiente"
+      },
+      {
+        "weight": 1,
+        "section": "F. Inventario / Alimento",
+        "id": "inventario_17",
+        "notes": "",
+        "question": "¿Los silos o tolvas están en buen estado y se limpian entre ciclos?",
+        "answer": "pendiente"
+      },
+      {
+        "weight": 1,
+        "section": "F. Inventario / Alimento",
+        "id": "inventario_18",
+        "notes": "",
+        "question": "¿Existen controles para prevenir el hurto o mal uso de insumos de la granja?",
+        "answer": "pendiente"
+      },
+      {
+        "weight": 1,
+        "section": "F. Inventario / Alimento",
+        "id": "inventario_19",
+        "notes": "",
+        "question": "¿El proveedor de alimento entrega certificado de calidad con cada despacho?",
+        "answer": "pendiente"
+      },
+      {
+        "weight": 1,
+        "section": "F. Inventario / Alimento",
+        "id": "inventario_20",
+        "notes": "",
+        "question": "¿El inventario físico coincide con el inventario teórico registrado en el sistema?",
+        "answer": "pendiente"
+      },
+      {
+        "weight": 1,
+        "section": "G. Sanitario",
+        "id": "sanitario_1",
+        "notes": "",
+        "question": "¿La granja cuenta con registro sanitario ICA vigente y actualizado?",
+        "answer": "si"
+      },
+      {
+        "weight": 1,
+        "section": "G. Sanitario",
+        "id": "sanitario_2",
+        "notes": "",
+        "question": "¿El programa de vacunación está definido, documentado y se cumple en los tiempos establecidos?",
+        "answer": "si"
+      },
+      {
+        "weight": 1,
+        "section": "G. Sanitario",
+        "id": "sanitario_3",
+        "notes": "",
+        "question": "¿Las vacunas aplicadas están aprobadas por el ICA y son de fuente certificada?",
+        "answer": "si"
+      },
+      {
+        "weight": 1,
+        "section": "G. Sanitario",
+        "id": "sanitario_4",
+        "notes": "",
+        "question": "¿Las personas que aplican medicamentos y vacunas están capacitadas para esta actividad?",
+        "answer": "si"
+      },
+      {
+        "weight": 1,
+        "section": "G. Sanitario",
+        "id": "sanitario_5",
+        "notes": "",
+        "question": "¿Existe un veterinario responsable asignado a la granja con visitas periódicas programadas?",
+        "answer": "no"
+      },
+      {
+        "weight": 1,
+        "section": "G. Sanitario",
+        "id": "sanitario_6",
+        "notes": "",
+        "question": "¿Se realiza seguimiento serológico post-vacunal para verificar la respuesta inmune del lote?",
+        "answer": "no"
+      },
+      {
+        "weight": 1,
+        "section": "G. Sanitario",
+        "id": "sanitario_7",
+        "notes": "",
+        "question": "¿Se respetan los tiempos de retiro de medicamentos antes del envío a sacrificio?",
+        "answer": "no"
+      },
+      {
+        "weight": 1,
+        "section": "G. Sanitario",
+        "id": "sanitario_8",
+        "notes": "",
+        "question": "¿Los tratamientos médicos son formulados y autorizados por un médico veterinario?",
+        "answer": "na"
+      },
+      {
+        "weight": 1,
+        "section": "G. Sanitario",
+        "id": "sanitario_9",
+        "notes": "",
+        "question": "¿Los diagnósticos clínicos se confirman con apoyo de laboratorio cuando es necesario?",
+        "answer": "pendiente"
+      },
+      {
+        "weight": 1,
+        "section": "G. Sanitario",
+        "id": "sanitario_10",
+        "notes": "",
+        "question": "¿Los resultados de laboratorio son archivados y están disponibles para auditoría?",
+        "answer": "pendiente"
+      },
+      {
+        "weight": 1,
+        "section": "G. Sanitario",
+        "id": "sanitario_11",
+        "notes": "",
+        "question": "¿La granja mantiene libre de enfermedades de control oficial (Newcastle, Influenza, etc.)?",
+        "answer": "pendiente"
+      },
+      {
+        "weight": 1,
+        "section": "G. Sanitario",
+        "id": "sanitario_12",
+        "notes": "",
+        "question": "¿Se realiza monitoreo serológico periódico para enfermedades prioritarias del sector?",
+        "answer": "pendiente"
+      },
+      {
+        "weight": 1,
+        "section": "G. Sanitario",
+        "id": "sanitario_13",
+        "notes": "",
+        "question": "¿Existe un programa de control de ectoparásitos (ácaros, piojos) implementado?",
+        "answer": "pendiente"
+      },
+      {
+        "weight": 1,
+        "section": "G. Sanitario",
+        "id": "sanitario_14",
+        "notes": "",
+        "question": "¿Se notifica oportunamente a la ICA ante sospecha de enfermedad de control oficial?",
+        "answer": "pendiente"
+      },
+      {
+        "weight": 1,
+        "section": "G. Sanitario",
+        "id": "sanitario_15",
+        "notes": "",
+        "question": "¿El agua suministrada a las aves cumple con los parámetros de potabilidad definidos?",
+        "answer": "pendiente"
+      },
+      {
+        "weight": 1,
+        "section": "G. Sanitario",
+        "id": "sanitario_16",
+        "notes": "",
+        "question": "¿Los criterios de selección de pollitos al ingreso están documentados y se aplican?",
+        "answer": "pendiente"
+      },
+      {
+        "weight": 1,
+        "section": "G. Sanitario",
+        "id": "sanitario_17",
+        "notes": "",
+        "question": "¿Se realizan necropsias sistemáticas y los hallazgos se clasifican por sistema orgánico afectado?",
+        "answer": "pendiente"
+      },
+      {
+        "weight": 1,
+        "section": "G. Sanitario",
+        "id": "sanitario_18",
+        "notes": "",
+        "question": "¿Existe un historial clínico completo por lote desde el ingreso hasta el despacho?",
+        "answer": "pendiente"
+      },
+      {
+        "weight": 1,
+        "section": "G. Sanitario",
+        "id": "sanitario_19",
+        "notes": "",
+        "question": "¿Se realiza evaluación de bienestar animal con registros de indicadores basados en el lote?",
+        "answer": "pendiente"
+      },
+      {
+        "weight": 1,
+        "section": "G. Sanitario",
+        "id": "sanitario_20",
+        "notes": "",
+        "question": "¿Los indicadores sanitarios del ciclo (IEP, mortalidad, conversión) se comparan contra estándares de la línea?",
+        "answer": "pendiente"
+      },
+      {
+        "weight": 1,
+        "section": "H. Documental",
+        "id": "documental_1",
+        "notes": "",
+        "question": "¿Existe un sistema organizado de archivo físico o digital de los documentos de la granja?",
+        "answer": "pendiente"
+      },
+      {
+        "weight": 1,
+        "section": "H. Documental",
+        "id": "documental_2",
+        "notes": "",
+        "question": "¿Los registros de producción (consumo, pesaje, mortalidad) están completos y al día?",
+        "answer": "pendiente"
+      },
+      {
+        "weight": 1,
+        "section": "H. Documental",
+        "id": "documental_3",
+        "notes": "",
+        "question": "¿Los procedimientos operativos estandarizados (POEs/POES) están documentados y actualizados?",
+        "answer": "pendiente"
+      },
+      {
+        "weight": 1,
+        "section": "H. Documental",
+        "id": "documental_4",
+        "notes": "",
+        "question": "¿Las guías de movilización de animales están correctamente diligenciadas y archivadas?",
+        "answer": "pendiente"
+      },
+      {
+        "weight": 1,
+        "section": "H. Documental",
+        "id": "documental_5",
+        "notes": "",
+        "question": "¿Los certificados de vacunación están disponibles y corresponden al lote en producción?",
+        "answer": "pendiente"
+      },
+      {
+        "weight": 1,
+        "section": "H. Documental",
+        "id": "documental_6",
+        "notes": "",
+        "question": "¿Los contratos con proveedores de pollito, alimento e insumos están vigentes y firmados?",
+        "answer": "pendiente"
+      },
+      {
+        "weight": 1,
+        "section": "H. Documental",
+        "id": "documental_7",
+        "notes": "",
+        "question": "¿Los permisos ambientales y sanitarios de la granja están actualizados y accesibles?",
+        "answer": "pendiente"
+      },
+      {
+        "weight": 1,
+        "section": "H. Documental",
+        "id": "documental_8",
+        "notes": "",
+        "question": "¿Los resultados de análisis de laboratorio están archivados con identificación de lote y fecha?",
+        "answer": "pendiente"
+      },
+      {
+        "weight": 1,
+        "section": "H. Documental",
+        "id": "documental_9",
+        "notes": "",
+        "question": "¿Existe un manual de funciones para cada cargo de la granja?",
+        "answer": "si"
+      },
+      {
+        "weight": 1,
+        "section": "H. Documental",
+        "id": "documental_10",
+        "notes": "",
+        "question": "¿Los registros de capacitaciones del personal están documentados y firmados?",
+        "answer": "pendiente"
+      },
+      {
+        "weight": 1,
+        "section": "H. Documental",
+        "id": "documental_11",
+        "notes": "",
+        "question": "¿Las actas de visitas técnicas y de auditoría están archivadas y firmadas?",
+        "answer": "si"
+      },
+      {
+        "weight": 1,
+        "section": "H. Documental",
+        "id": "documental_12",
+        "notes": "",
+        "question": "¿Los registros de mantenimiento de equipos e instalaciones están actualizados?",
+        "answer": "no"
+      },
+      {
+        "weight": 1,
+        "section": "H. Documental",
+        "id": "documental_13",
+        "notes": "",
+        "question": "¿Se lleva un libro o sistema de registro de visitas a la granja (control de acceso)?",
+        "answer": "no"
+      },
+      {
+        "weight": 1,
+        "section": "H. Documental",
+        "id": "documental_14",
+        "notes": "",
+        "question": "¿Los documentos de trazabilidad permiten identificar el origen de los insumos utilizados?",
+        "answer": "pendiente"
+      },
+      {
+        "weight": 1,
+        "section": "H. Documental",
+        "id": "documental_15",
+        "notes": "",
+        "question": "¿Las facturas de compra de insumos y servicios están organizadas por período?",
+        "answer": "si"
+      },
+      {
+        "weight": 1,
+        "section": "H. Documental",
+        "id": "documental_16",
+        "notes": "",
+        "question": "¿Los registros de tratamientos médicos incluyen: fecha, producto, dosis, tiempo de retiro y responsable?",
+        "answer": "no"
+      },
+      {
+        "weight": 1,
+        "section": "H. Documental",
+        "id": "documental_17",
+        "notes": "",
+        "question": "¿Los documentos de exportación o venta están correctamente diligenciados cuando aplica?",
+        "answer": "si"
+      },
+      {
+        "weight": 1,
+        "section": "H. Documental",
+        "id": "documental_18",
+        "notes": "",
+        "question": "¿Los informes periódicos enviados a la empresa integrada o a gerencia están documentados?",
+        "answer": "no"
+      },
+      {
+        "weight": 1,
+        "section": "H. Documental",
+        "id": "documental_19",
+        "notes": "",
+        "question": "¿Existe un plan de continuidad o contingencia documentado ante emergencias operativas?",
+        "answer": "si"
+      },
+      {
+        "weight": 1,
+        "section": "H. Documental",
+        "id": "documental_20",
+        "notes": "",
+        "question": "¿La documentación de la granja ha sido revisada en la última auditoría interna o externa?",
+        "answer": "no"
+      },
+      {
+        "weight": 1,
+        "section": "I. Bioseguridad",
+        "id": "bioseguridad_1",
+        "notes": "",
+        "question": "¿La granja cuenta con un programa de bioseguridad documentado, aprobado y en ejecución?",
+        "answer": "si"
+      },
+      {
+        "weight": 1,
+        "section": "I. Bioseguridad",
+        "id": "bioseguridad_2",
+        "notes": "",
+        "question": "¿Existe una zona de acceso controlado (zona sucia, zona limpia) claramente delimitada?",
+        "answer": "no"
+      },
+      {
+        "weight": 1,
+        "section": "I. Bioseguridad",
+        "id": "bioseguridad_3",
+        "notes": "",
+        "question": "¿Los pediluvios están activos, con solución desinfectante renovada y en puntos de ingreso?",
+        "answer": "si"
+      },
+      {
+        "weight": 1,
+        "section": "I. Bioseguridad",
+        "id": "bioseguridad_4",
+        "notes": "",
+        "question": "¿Los visitantes y personal externo registran su ingreso y cumplen con los protocolos establecidos?",
+        "answer": "si"
+      },
+      {
+        "weight": 1,
+        "section": "I. Bioseguridad",
+        "id": "bioseguridad_5",
+        "notes": "",
+        "question": "¿El tiempo mínimo de baja sanitaria antes de ingresar a la granja se cumple según protocolo?",
+        "answer": "si"
+      },
+      {
+        "weight": 1,
+        "section": "I. Bioseguridad",
+        "id": "bioseguridad_6",
+        "notes": "",
+        "question": "¿El personal usa equipo de protección personal (overol, botas, guantes, gorro) al ingresar al galpón?",
+        "answer": "si"
+      },
+      {
+        "weight": 1,
+        "section": "I. Bioseguridad",
+        "id": "bioseguridad_7",
+        "notes": "",
+        "question": "¿Los vehículos de proveedores y transporte no ingresan a las instalaciones sin autorización?",
+        "answer": "si"
+      },
+      {
+        "weight": 1,
+        "section": "I. Bioseguridad",
+        "id": "bioseguridad_8",
+        "notes": "",
+        "question": "¿Se realizan lavado y desinfección de vehículos autorizados antes de su ingreso?",
+        "answer": "si"
+      },
+      {
+        "weight": 1,
+        "section": "I. Bioseguridad",
+        "id": "bioseguridad_9",
+        "notes": "",
+        "question": "¿Existe un programa de control de plagas (roedores, aves silvestres, insectos) documentado?",
+        "answer": "pendiente"
+      },
+      {
+        "weight": 1,
+        "section": "I. Bioseguridad",
+        "id": "bioseguridad_10",
+        "notes": "",
+        "question": "¿El personal de la granja no tiene contacto con aves de patio u otras especies avícolas?",
+        "answer": "pendiente"
+      },
+      {
+        "weight": 1,
+        "section": "I. Bioseguridad",
+        "id": "bioseguridad_11",
+        "notes": "",
+        "question": "¿Los equipos y materiales que ingresan al galpón se desinfectan antes de ser usados?",
+        "answer": "pendiente"
+      },
+      {
+        "weight": 1,
+        "section": "I. Bioseguridad",
+        "id": "bioseguridad_12",
+        "notes": "",
+        "question": "¿Los ciclos de vacío sanitario entre lotes se respetan con limpieza y desinfección profunda?",
+        "answer": "si"
+      },
+      {
+        "weight": 1,
+        "section": "I. Bioseguridad",
+        "id": "bioseguridad_13",
+        "notes": "",
+        "question": "¿Se verifica la eficacia de la desinfección mediante análisis microbiológico antes del repoblamiento?",
+        "answer": "si"
+      },
+      {
+        "weight": 1,
+        "section": "I. Bioseguridad",
+        "id": "bioseguridad_14",
+        "notes": "",
+        "question": "¿El uso de antibióticos se hace únicamente bajo prescripción veterinaria y registro?",
+        "answer": "si"
+      },
+      {
+        "weight": 1,
+        "section": "I. Bioseguridad",
+        "id": "bioseguridad_15",
+        "notes": "",
+        "question": "¿Los trabajadores no comparten herramientas ni equipos entre galpones sin desinfección previa?",
+        "answer": "pendiente"
+      },
+      {
+        "weight": 1,
+        "section": "I. Bioseguridad",
+        "id": "bioseguridad_16",
+        "notes": "",
+        "question": "¿Existe un protocolo claro para el manejo de aves enfermas o sospechosas de enfermedad?",
+        "answer": "pendiente"
+      },
+      {
+        "weight": 1,
+        "section": "I. Bioseguridad",
+        "id": "bioseguridad_17",
+        "notes": "",
+        "question": "¿Se capacita periódicamente al personal sobre los protocolos de bioseguridad vigentes?",
+        "answer": "pendiente"
+      },
+      {
+        "weight": 1,
+        "section": "I. Bioseguridad",
+        "id": "bioseguridad_18",
+        "notes": "",
+        "question": "¿Los indicadores de bioseguridad (registro de visitas, cumplimiento de baja sanitaria) son monitoreados?",
+        "answer": "pendiente"
+      },
+      {
+        "weight": 1,
+        "section": "I. Bioseguridad",
+        "id": "bioseguridad_19",
+        "notes": "",
+        "question": "¿El agua de bebida es tratada con desinfectante o es potabilizada antes de ser suministrada?",
+        "answer": "pendiente"
+      },
+      {
+        "weight": 1,
+        "section": "I. Bioseguridad",
+        "id": "bioseguridad_20",
+        "notes": "",
+        "question": "¿Se realizan auditorías internas de bioseguridad con frecuencia definida y con registro de resultados?",
+        "answer": "pendiente"
+      }
+    ],
+    "title": "Bioseguridad",
+    "type": "alimentacion",
+    "scheduled_date": "2026-05-06",
+    "auditor_email": "",
+    "completed_date": null,
+    "score": null,
+    "barn_id": "",
+    "farm_id": "6a0b4a4d46db4eddacee532c",
+    "status": "en_proceso",
+    "id": "6a0bad4cd48267e7b665fd01",
+    "created_date": "2026-05-19T00:22:36.555000",
+    "updated_date": "2026-05-21T13:16:28.168000",
+    "created_by_id": "6a0a53866b4d272c3b1d474b",
+    "created_by": "msduran1994@gmail.com",
+    "is_sample": false
+  },
+  {
+    "summary": "",
+    "metadata": null,
+    "auditor": "MICHAEL DURAN",
+    "checklist": [
+      {
+        "weight": 1,
+        "section": "Bioseguridad",
+        "id": "b1",
+        "notes": null,
+        "question": "¿Las entradas tienen pediluvios activos?",
+        "answer": "si"
+      },
+      {
+        "weight": 1,
+        "section": "Bioseguridad",
+        "id": "b2",
+        "notes": null,
+        "question": "¿El personal usa equipo de protección personal?",
+        "answer": "si"
+      },
+      {
+        "weight": 1,
+        "section": "Bioseguridad",
+        "id": "b3",
+        "notes": null,
+        "question": "¿Hay registros de visitas actualizados?",
+        "answer": "na"
+      },
+      {
+        "weight": 1,
+        "section": "Alimentación",
+        "id": "a1",
+        "notes": null,
+        "question": "¿El suministro de agua es continuo y limpio?",
+        "answer": "si"
+      },
+      {
+        "weight": 1,
+        "section": "Alimentación",
+        "id": "a2",
+        "notes": null,
+        "question": "¿Los comederos están limpios y llenos?",
+        "answer": "pendiente"
+      },
+      {
+        "weight": 1,
+        "section": "Sanidad",
+        "id": "s1",
+        "notes": null,
+        "question": "¿Se respeta el calendario de vacunación?",
+        "answer": "si"
+      },
+      {
+        "weight": 1,
+        "section": "Sanidad",
+        "id": "s2",
+        "notes": null,
+        "question": "¿Hay mortalidad inusual en los últimos 7 días?",
+        "answer": "no"
+      },
+      {
+        "weight": 1,
+        "section": "Instalaciones",
+        "id": "i1",
+        "notes": null,
+        "question": "¿La ventilación del galpón es adecuada?",
+        "answer": "si"
+      },
+      {
+        "weight": 1,
+        "section": "Instalaciones",
+        "id": "i2",
+        "notes": null,
+        "question": "¿La temperatura está dentro del rango óptimo?",
+        "answer": "si"
+      }
+    ],
+    "title": "AUDITORIA FINANCIERA",
+    "type": "general",
+    "scheduled_date": "2026-05-06",
+    "auditor_email": "",
+    "completed_date": null,
+    "score": null,
+    "barn_id": "",
+    "farm_id": "6a0a6f75de2b80718dd67694",
+    "status": "completada",
+    "id": "6a0a6fbfa8f4e85a94c4ca2c",
+    "created_date": "2026-05-18T01:47:43.563000",
+    "updated_date": "2026-05-18T01:49:45.870000",
+    "created_by_id": "6a0a53866b4d272c3b1d474b",
+    "created_by": "msduran1994@gmail.com",
+    "is_sample": false
+  },
+  {
+    "summary": "",
+    "metadata": null,
+    "auditor": "MICHAEL DURAN",
+    "checklist": [
+      {
+        "weight": 1,
+        "section": "Bioseguridad",
+        "id": "b1",
+        "notes": null,
+        "question": "¿Las entradas tienen pediluvios activos?",
+        "answer": "si"
+      },
+      {
+        "weight": 1,
+        "section": "Bioseguridad",
+        "id": "b2",
+        "notes": null,
+        "question": "¿El personal usa equipo de protección personal?",
+        "answer": "si"
+      },
+      {
+        "weight": 1,
+        "section": "Bioseguridad",
+        "id": "b3",
+        "notes": null,
+        "question": "¿Hay registros de visitas actualizados?",
+        "answer": "si"
+      },
+      {
+        "weight": 1,
+        "section": "Alimentación",
+        "id": "a1",
+        "notes": null,
+        "question": "¿El suministro de agua es continuo y limpio?",
+        "answer": "si"
+      },
+      {
+        "weight": 1,
+        "section": "Alimentación",
+        "id": "a2",
+        "notes": null,
+        "question": "¿Los comederos están limpios y llenos?",
+        "answer": "si"
+      },
+      {
+        "weight": 1,
+        "section": "Sanidad",
+        "id": "s1",
+        "notes": null,
+        "question": "¿Se respeta el calendario de vacunación?",
+        "answer": "si"
+      },
+      {
+        "weight": 1,
+        "section": "Sanidad",
+        "id": "s2",
+        "notes": null,
+        "question": "¿Hay mortalidad inusual en los últimos 7 días?",
+        "answer": "si"
+      },
+      {
+        "weight": 1,
+        "section": "Instalaciones",
+        "id": "i1",
+        "notes": null,
+        "question": "¿La ventilación del galpón es adecuada?",
+        "answer": "si"
+      },
+      {
+        "weight": 1,
+        "section": "Instalaciones",
+        "id": "i2",
+        "notes": null,
+        "question": "¿La temperatura está dentro del rango óptimo?",
+        "answer": "si"
+      }
+    ],
+    "title": "INFRASTRUCTURA",
+    "type": "bioseguridad",
+    "scheduled_date": "2026-05-17",
+    "auditor_email": "",
+    "completed_date": null,
+    "score": null,
+    "barn_id": "",
+    "farm_id": "6a0a56bf8beda6e2e2f41f6a",
+    "status": "completada",
+    "id": "6a0a56fc497f00ca2beec7a7",
+    "created_date": "2026-05-18T00:02:04.061000",
+    "updated_date": "2026-05-18T00:02:49.768000",
+    "created_by_id": "6a0a53866b4d272c3b1d474b",
+    "created_by": "msduran1994@gmail.com",
+    "is_sample": false
+  }
+]
