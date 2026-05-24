@@ -1,71 +1,127 @@
 import { NextRequest, NextResponse } from "next/server";
-import { queryEntities, createEntity, updateEntity, deleteEntity } from "@/lib/base44";
+import fs from "fs";
+import path from "path";
 import type { EntityName } from "@/types";
+
+const DATA_DIR = path.join(process.cwd(), "data");
+
+const ALLOWED: Set<string> = new Set([
+  "Farm", "Finding", "KPIPlan", "Audit", "Document",
+  "Inventory", "Lot", "AuditReport", "AllowedUser",
+]);
+
+function filePath(entity: string) {
+  return path.join(DATA_DIR, `${entity}.json`);
+}
+
+function readAll(entity: string): Record<string, unknown>[] {
+  try {
+    return JSON.parse(fs.readFileSync(filePath(entity), "utf-8"));
+  } catch {
+    return [];
+  }
+}
+
+function writeAll(entity: string, records: Record<string, unknown>[]) {
+  fs.writeFileSync(filePath(entity), JSON.stringify(records, null, 2), "utf-8");
+}
+
+function newId(): string {
+  return Date.now().toString(16) + Math.random().toString(16).slice(2, 10);
+}
 
 export async function GET(req: NextRequest) {
   const { searchParams } = req.nextUrl;
   const entity = searchParams.get("entity") as EntityName;
+  if (!entity || !ALLOWED.has(entity))
+    return NextResponse.json({ error: "invalid entity" }, { status: 400 });
+
   const limit = parseInt(searchParams.get("limit") ?? "500");
-  const skip = parseInt(searchParams.get("skip") ?? "0");
-  const sort = searchParams.get("sort") ?? undefined;
+  const skip  = parseInt(searchParams.get("skip")  ?? "0");
+  const sort  = searchParams.get("sort") ?? null;
   const queryParam = searchParams.get("query");
-  const query = queryParam ? JSON.parse(queryParam) : {};
+  const filter: Record<string, unknown> = queryParam ? JSON.parse(queryParam) : {};
 
-  if (!entity) return NextResponse.json({ error: "entity required" }, { status: 400 });
+  let records = readAll(entity);
 
-  try {
-    const data = await queryEntities(entity, { limit, skip, sort, query });
-    return NextResponse.json(data, {
-      headers: { "Cache-Control": "no-store, max-age=0" },
-    });
-  } catch (e: unknown) {
-    const msg = e instanceof Error ? e.message : "Unknown error";
-    return NextResponse.json({ error: msg }, { status: 500 });
+  if (Object.keys(filter).length) {
+    records = records.filter((r) =>
+      Object.entries(filter).every(([k, v]) => r[k] === v)
+    );
   }
+
+  if (sort) {
+    const desc = sort.startsWith("-");
+    const key  = desc ? sort.slice(1) : sort;
+    records = [...records].sort((a, b) => {
+      const av = a[key] as string, bv = b[key] as string;
+      return desc ? (bv > av ? 1 : -1) : (av > bv ? 1 : -1);
+    });
+  }
+
+  const total = records.length;
+  const paged = records.slice(skip, skip + limit);
+
+  return NextResponse.json(
+    { entities: paged, count: total },
+    { headers: { "Cache-Control": "no-store" } }
+  );
 }
 
 export async function POST(req: NextRequest) {
   const { searchParams } = req.nextUrl;
   const entity = searchParams.get("entity") as EntityName;
-  if (!entity) return NextResponse.json({ error: "entity required" }, { status: 400 });
+  if (!entity || !ALLOWED.has(entity))
+    return NextResponse.json({ error: "invalid entity" }, { status: 400 });
 
   const body = await req.json();
-  try {
-    const created = await createEntity(entity, body);
-    return NextResponse.json(created, { status: 201 });
-  } catch (e: unknown) {
-    const msg = e instanceof Error ? e.message : "Unknown error";
-    return NextResponse.json({ error: msg }, { status: 500 });
-  }
+  const now = new Date().toISOString();
+  const record = {
+    ...body,
+    id: newId(),
+    created_date: now,
+    updated_date: now,
+  };
+
+  const records = readAll(entity);
+  records.push(record);
+  writeAll(entity, records);
+
+  return NextResponse.json(record, { status: 201 });
 }
 
 export async function PUT(req: NextRequest) {
   const { searchParams } = req.nextUrl;
   const entity = searchParams.get("entity") as EntityName;
   const id = searchParams.get("id");
-  if (!entity || !id) return NextResponse.json({ error: "entity and id required" }, { status: 400 });
+  if (!entity || !ALLOWED.has(entity) || !id)
+    return NextResponse.json({ error: "entity and id required" }, { status: 400 });
 
   const body = await req.json();
-  try {
-    const updated = await updateEntity(entity, id, body);
-    return NextResponse.json(updated);
-  } catch (e: unknown) {
-    const msg = e instanceof Error ? e.message : "Unknown error";
-    return NextResponse.json({ error: msg }, { status: 500 });
-  }
+  const records = readAll(entity);
+  const idx = records.findIndex((r) => r.id === id);
+  if (idx === -1)
+    return NextResponse.json({ error: "not found" }, { status: 404 });
+
+  const updated = { ...records[idx], ...body, id, updated_date: new Date().toISOString() };
+  records[idx] = updated;
+  writeAll(entity, records);
+
+  return NextResponse.json(updated);
 }
 
 export async function DELETE(req: NextRequest) {
   const { searchParams } = req.nextUrl;
   const entity = searchParams.get("entity") as EntityName;
   const id = searchParams.get("id");
-  if (!entity || !id) return NextResponse.json({ error: "entity and id required" }, { status: 400 });
+  if (!entity || !ALLOWED.has(entity) || !id)
+    return NextResponse.json({ error: "entity and id required" }, { status: 400 });
 
-  try {
-    await deleteEntity(entity, id);
-    return NextResponse.json({ ok: true });
-  } catch (e: unknown) {
-    const msg = e instanceof Error ? e.message : "Unknown error";
-    return NextResponse.json({ error: msg }, { status: 500 });
-  }
+  const records = readAll(entity);
+  const next = records.filter((r) => r.id !== id);
+  if (next.length === records.length)
+    return NextResponse.json({ error: "not found" }, { status: 404 });
+
+  writeAll(entity, next);
+  return NextResponse.json({ ok: true });
 }
